@@ -1,5 +1,6 @@
 # -- The number of replicas (pods) to launch
 replicaCount: 1
+namespace: default
 
 image:
   # -- Name of the image repository to pull the container image from.
