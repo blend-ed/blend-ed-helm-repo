@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  hasura:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-13T06:27:41.120260213Z"
+    description: A Helm chart for Kubernetes
+    digest: 13e6ed7d21f37b0fc27b920b42e3845768f8891f41ca5bcb84f950d2f9ad215a
+    name: hasura
+    type: application
+    urls:
+    - https://blend-ed.github.io/blend-ed-helm-repo/hasura-0.1.0.tgz
+    version: 0.1.0
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-08T17:42:13.848353518Z"
+    created: "2023-06-13T06:27:41.120967704Z"
     description: A Helm chart for Kubernetes
-    digest: f7871b203a55115ec88e96c2cb9e7ce06a6d3e47e7185062054975bd830ff514
+    digest: 002b08c33d97056cb94652521e8ec4778591e7de0fb1e85907c221fea8450ae2
     name: test-chart
     type: application
     urls:
     - https://blend-ed.github.io/blend-ed-helm-repo/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-08T17:42:13.847568511Z"
+generated: "2023-06-13T06:27:41.119171725Z"
